@@ -1,0 +1,14 @@
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\RegistrationDatabase\RegistrationDatabase\bin\Debug\RegistrationDatabase.exe.config
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\RegistrationDatabase\RegistrationDatabase\bin\Debug\RegistrationDatabase.exe
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\RegistrationDatabase\RegistrationDatabase\bin\Debug\RegistrationDatabase.pdb
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\RegistrationDatabase\RegistrationDatabase\bin\Debug\EntityFramework.dll
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\RegistrationDatabase\RegistrationDatabase\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\RegistrationDatabase\RegistrationDatabase\bin\Debug\EntityFramework.xml
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\RegistrationDatabase\RegistrationDatabase\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\RegistrationDatabase\RegistrationDatabase\obj\Debug\RegistrationDatabase.csprojAssemblyReference.cache
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\RegistrationDatabase\RegistrationDatabase\obj\Debug\RegistrationDatabase.Properties.Resources.resources
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\RegistrationDatabase\RegistrationDatabase\obj\Debug\RegistrationDatabase.csproj.GenerateResource.cache
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\RegistrationDatabase\RegistrationDatabase\obj\Debug\RegistrationDatabase.csproj.CoreCompileInputs.cache
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\RegistrationDatabase\RegistrationDatabase\obj\Debug\RegistrationDatabase.csproj.CopyComplete
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\RegistrationDatabase\RegistrationDatabase\obj\Debug\RegistrationDatabase.exe
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\RegistrationDatabase\RegistrationDatabase\obj\Debug\RegistrationDatabase.pdb

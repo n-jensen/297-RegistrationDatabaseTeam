@@ -1,0 +1,15 @@
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\bin\Debug\CollegeRegistration.exe.config
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\bin\Debug\CollegeRegistration.exe
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\bin\Debug\CollegeRegistration.pdb
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\bin\Debug\EntityFramework.dll
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\bin\Debug\EntityFramework.xml
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.csprojAssemblyReference.cache
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.Form1.resources
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.Properties.Resources.resources
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.csproj.GenerateResource.cache
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.csproj.CoreCompileInputs.cache
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.csproj.CopyComplete
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.exe
+C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.pdb
