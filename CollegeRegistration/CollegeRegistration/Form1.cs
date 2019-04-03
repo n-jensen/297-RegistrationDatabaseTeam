@@ -13,8 +13,8 @@ namespace CollegeRegistration
 {
     public partial class Form1 : Form
     {
-
-        RegistrationEntities RegistrationEntities;
+          //https://github.com/EricCharnesky/CIS297-Winter2019/blob/master/CollegeRegistration/CollegeRegistration/Form1.cs
+          RegistrationEntities RegistrationEntities;
         public Form1()
         {
             InitializeComponent();
@@ -52,7 +52,8 @@ namespace CollegeRegistration
             //RegistrationEntities.Students.Remove()
         }
 
-        private void addStudentButton_Click(object sender, EventArgs e)
+          //https://github.com/EricCharnesky/CIS297-Winter2019/blob/master/CollegeRegistration/CollegeRegistration/Form1.cs
+          private void addStudentButton_Click(object sender, EventArgs e)
         {
             var selectedMajor = majorsListBox.SelectedItem as Major;
             if ( selectedMajor != null )
@@ -70,7 +71,8 @@ namespace CollegeRegistration
 
         }
 
-        private void updateStudentsList()
+          //https://github.com/EricCharnesky/CIS297-Winter2019/blob/master/CollegeRegistration/CollegeRegistration/Form1.cs
+          private void updateStudentsList()
         {
             foreach( var student in RegistrationEntities.Students )
             {
@@ -79,7 +81,8 @@ namespace CollegeRegistration
             
         }
 
-        private void updateMajorsList()
+          //https://github.com/EricCharnesky/CIS297-Winter2019/blob/master/CollegeRegistration/CollegeRegistration/Form1.cs
+          private void updateMajorsList()
         {
             foreach (var major in RegistrationEntities.Majors)
             {
@@ -87,8 +90,8 @@ namespace CollegeRegistration
             }
 
         }
-
-        private void button1_Click(object sender, EventArgs e)
+          //https://github.com/EricCharnesky/CIS297-Winter2019/blob/master/CollegeRegistration/CollegeRegistration/Form1.cs
+          private void button1_Click(object sender, EventArgs e)
         {
             Major newMajor = new Major()
             {
@@ -100,13 +103,15 @@ namespace CollegeRegistration
             //updateMajorsList();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+          //https://github.com/EricCharnesky/CIS297-Winter2019/blob/master/CollegeRegistration/CollegeRegistration/Form1.cs
+          private void button2_Click(object sender, EventArgs e)
         {
             var sectionsForm = new Sections();
             sectionsForm.Show();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+          //https://github.com/EricCharnesky/CIS297-Winter2019/blob/master/CollegeRegistration/CollegeRegistration/Form1.cs
+          private void button3_Click(object sender, EventArgs e)
         {
             var selectedMajor = majorsListBox.SelectedItem as Major;
             if ( selectedMajor != null )
