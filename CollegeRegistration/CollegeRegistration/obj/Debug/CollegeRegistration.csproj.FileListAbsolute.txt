@@ -16,3 +16,14 @@ C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\CollegeR
 C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.StudentForm.resources
 C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.MajorForm.resources
 C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.EnrollmentForm.resources
+C:\Users\farre\Documents\GitHub\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.csprojAssemblyReference.cache
+C:\Users\farre\Documents\GitHub\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.CourseForm.resources
+C:\Users\farre\Documents\GitHub\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.EnrollmentForm.resources
+C:\Users\farre\Documents\GitHub\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.FacultyForm.resources
+C:\Users\farre\Documents\GitHub\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.MajorForm.resources
+C:\Users\farre\Documents\GitHub\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.StudentForm.resources
+C:\Users\farre\Documents\GitHub\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.Properties.Resources.resources
+C:\Users\farre\Documents\GitHub\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.csproj.GenerateResource.cache
+C:\Users\farre\Documents\GitHub\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.csproj.CoreCompileInputs.cache
+C:\Users\farre\Documents\GitHub\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.exe
+C:\Users\farre\Documents\GitHub\RegistrationDatabaseTeam\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.pdb

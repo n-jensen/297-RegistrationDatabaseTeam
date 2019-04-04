@@ -25,4 +25,9 @@ namespace CollegeRegistration
      {
           public string EnrollmentInfo => $"{StudentID} {SectionID} {Grade}";
      }
+
+     public partial class Course
+     {
+          public string CoursesInfo => $"{Name} {Number} {Credits} {Department}";
+     }
 }
