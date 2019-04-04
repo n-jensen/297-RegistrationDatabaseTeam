@@ -66,9 +66,7 @@ namespace CollegeRegistration
                 RegistrationEntities.Students.Add(newStudent);
                 RegistrationEntities.SaveChanges();
             }
-            
-            //updateStudentsList();
-
+            updateStudentsList();
         }
 
           //https://github.com/EricCharnesky/CIS297-Winter2019/blob/master/CollegeRegistration/CollegeRegistration/Form1.cs
@@ -90,7 +88,9 @@ namespace CollegeRegistration
             }
 
         }
+
           //https://github.com/EricCharnesky/CIS297-Winter2019/blob/master/CollegeRegistration/CollegeRegistration/Form1.cs
+          //Add+Filter? Major
           private void button1_Click(object sender, EventArgs e)
         {
             Major newMajor = new Major()
@@ -100,17 +100,11 @@ namespace CollegeRegistration
             };
             RegistrationEntities.Majors.Add(newMajor);
             RegistrationEntities.SaveChanges();
-            //updateMajorsList();
+            updateMajorsList(); //FIXME delete?
         }
 
           //https://github.com/EricCharnesky/CIS297-Winter2019/blob/master/CollegeRegistration/CollegeRegistration/Form1.cs
-          private void button2_Click(object sender, EventArgs e)
-        {
-            var sectionsForm = new Sections();
-            sectionsForm.Show();
-        }
-
-          //https://github.com/EricCharnesky/CIS297-Winter2019/blob/master/CollegeRegistration/CollegeRegistration/Form1.cs
+          //Delete Major
           private void button3_Click(object sender, EventArgs e)
         {
             var selectedMajor = majorsListBox.SelectedItem as Major;
@@ -124,20 +118,62 @@ namespace CollegeRegistration
                 {
                     RegistrationEntities.Majors.Remove(selectedMajor);
                     RegistrationEntities.SaveChanges();
-                }
-                
-
+                }                
             }
         }
+
+          //Delete Student
+          private void DeleteStudentButton_Click(object sender, EventArgs e)
+          {
+
+          }
 
           private void textBox1_TextChanged(object sender, EventArgs e)
           {
 
           }
-
           private void studentsList_SelectedIndexChanged(object sender, EventArgs e)
           {
 
+          }
+          private void majorsListBox_SelectedIndexChanged(object sender, EventArgs e)
+          {
+
+          }
+
+
+
+          //https://github.com/EricCharnesky/CIS297-Winter2019/blob/master/CollegeRegistration/CollegeRegistration/Form1.cs
+          //Show section?
+          private void button2_Click(object sender, EventArgs e)
+          {
+               var sectionsForm = new SectionForm();
+               sectionsForm.Show();
+          }
+
+          private void OpenFacultyFormButton_Click(object sender, EventArgs e)
+          {
+               var facultyForm = new FacultyForm();
+               facultyForm.Show();
+
+          }
+
+          private void OpenCourseFormButton_Click(object sender, EventArgs e)
+          {
+               var courseForm = new CourseForm();
+               courseForm.Show();
+          }
+
+          private void OpenMajorFormButton_Click(object sender, EventArgs e)
+          {
+               var majorForm = new MajorForm();
+               majorForm.Show();
+          }
+
+          private void OpenEnrollmentFormButton_Click(object sender, EventArgs e)
+          {
+               var enrollmentForm = new EnrollmentForm();
+               enrollmentForm.Show();
           }
      }
 }

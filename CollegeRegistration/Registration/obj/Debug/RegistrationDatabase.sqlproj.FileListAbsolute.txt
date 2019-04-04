@@ -2,9 +2,5 @@ C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\Registra
 C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\Registration\bin\Debug\Registration.dll
 C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\Registration\bin\Debug\Registration.pdb
 C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\Registration\obj\Debug\RegistrationDatabase.sqlprojAssemblyReference.cache
-C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\Registration\obj\Debug\Model.xml
-C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\Registration\obj\Debug\refactor.xml
-C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\Registration\obj\Debug\postdeploy.sql
-C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\Registration\obj\Debug\predeploy.sql
 C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\Registration\obj\Debug\Registration.dll
 C:\Users\Noel\source\repos\RegistrationDatabaseTeam\CollegeRegistration\Registration\obj\Debug\Registration.pdb

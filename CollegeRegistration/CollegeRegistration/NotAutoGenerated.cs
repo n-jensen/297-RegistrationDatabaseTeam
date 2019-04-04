@@ -15,4 +15,9 @@ namespace CollegeRegistration
     {
         public string NameAndCollege => $"{Name} {College}";
     }
+
+    public partial class Faculty
+     {
+          public string FacultyInfo => $"{Name} {PhoneNumber}";
+     }
 }
