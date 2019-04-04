@@ -85,5 +85,10 @@ namespace CollegeRegistration
                     MajorNameListBox.Text += $"{major.Name} {major.College}";
                }
           }
+
+          private void MajorForm_Load(object sender, EventArgs e)
+          {
+
+          }
      }
 }

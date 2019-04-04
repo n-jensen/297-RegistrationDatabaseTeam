@@ -25,11 +25,12 @@ namespace CollegeRegistration
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Course> Course { get; set; }
+        public virtual DbSet<Course> Courses { get; set; }
         public virtual DbSet<Enrollment> Enrollments { get; set; }
         public virtual DbSet<Faculty> Faculties { get; set; }
         public virtual DbSet<Major> Majors { get; set; }
         public virtual DbSet<Section> Sections { get; set; }
         public virtual DbSet<Student> Students { get; set; }
-    }
+          public object Section { get; internal set; }
+     }
 }

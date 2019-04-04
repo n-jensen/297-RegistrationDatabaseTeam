@@ -30,4 +30,9 @@ namespace CollegeRegistration
      {
           public string CoursesInfo => $"{Name} {Number} {Credits} {Department}";
      }
+
+     public partial class Section
+     {
+          public string SectionInfo => $"{Faculty.Name} {Faculty.PhoneNumber} {Course.Name} {Course.Number} {Course.Credits} {Course.Department} {Day} {Time} {Semester}";
+     }
 }

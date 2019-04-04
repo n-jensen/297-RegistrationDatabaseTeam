@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -17,55 +18,35 @@ namespace CollegeRegistration
           {
                InitializeComponent();
                RegistrationEntities = new RegistrationEntities();
-               RegistrationEntities.Course.Load();
-               coursesListBox.DataSource = RegistrationEntities.Course.Local.ToBindingList();
+               RegistrationEntities.Courses.Load();
+               coursesListBox.DataSource = RegistrationEntities.Courses.Local.ToBindingList();
                coursesListBox.DisplayMember = nameof(Course.CoursesInfo);
-
-          }
-
-
-
-          private void CoursesList(object sender, EventArgs e)
-          {
 
           }
 
           private void addCourseButton_Click(object sender, EventArgs e)
           {
-
-               if (CoursesTextBox.Text != null)
+               if (coursesListBox.SelectedItem != null)
                {
-
-                    Courses newCourses = new Courses()
+                    Course newCourse = new Course
                     {
                          Name = CoursesTextBox.Text,
-                         Number = courseNumberTextBox.Text,
-                         Credits = Convert.ToInt32(CreditsTextBox.Text),
-                         Department = DepartmentTextBox.Text
-
+                        Number = courseNumberTextBox.Text,
+                        Credits = Convert.ToInt32(CreditsTextBox), 
+                        Department = DepartmentTextBox.Text
                     };
-                    RegistrationEntities.Course.Add(newCourses);
+                    RegistrationEntities.Courses.Add(newCourse);
                     RegistrationEntities.SaveChanges();
                }
-               //updateMajorList();
+               updateCoursesList();
           }
 
           private void updateCoursesList()
           {
-               foreach (var courses in RegistrationEntities.Course)
+               foreach (var courses in RegistrationEntities.Courses)
                {
                     coursesListBox.Text += $"{courses.Name} {courses.Number} {courses.Credits} {courses.Department}";
                }
-          }
-
-          private void CoursesTextBox_TextChanged(object sender, EventArgs e)
-          {
-
-          }
-
-          private void courseNumber(object sender, EventArgs e)
-          {
-
           }
 
           private void CourseForm_Load(object sender, EventArgs e)
@@ -73,26 +54,31 @@ namespace CollegeRegistration
 
           }
 
-          private void CreditsTextBox_TextChanged(object sender, EventArgs e)
+          private void DeleteCourseButton_Click(object sender, EventArgs e)
+          {
+               var selectedCourse = coursesListBox.SelectedItem as Major;
+               if (selectedCourse != null)
+               {
+                    if (selectedCourse.Name == null)
+                    {
+                         MessageBox.Show("You can't delete a course that has not been added");
+                    }
+                    else
+                    {
+                         RegistrationEntities.Majors.Remove(selectedCourse);
+                         RegistrationEntities.SaveChanges();
+                    }
+               }
+          }
+
+          private void coursesListBox_SelectedIndexChanged(object sender, EventArgs e)
           {
 
           }
 
-          private void DeleteCourseButton_Click(object sender, EventArgs e)
+          private void CoursesTextBox_TextChanged(object sender, EventArgs e)
           {
-               var selectedCourses = coursesListBox.SelectedItem as Major;
-               if (selectedCourses != null)
-               {
-                    if (coursesListBox == null)
-                    {
-                         MessageBox.Show("You can't delete a course that has not been entered!");
-                    }
-                    else
-                    {
-                         RegistrationEntities.Majors.Remove(selectedCourses);
-                         RegistrationEntities.SaveChanges();
-                    }
-               }
+
           }
      }
 }

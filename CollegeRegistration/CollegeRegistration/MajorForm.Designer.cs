@@ -114,6 +114,7 @@
                this.Controls.Add(this.MajorNameListBox);
                this.Name = "MajorForm";
                this.Text = "MajorForm";
+               this.Load += new System.EventHandler(this.MajorForm_Load);
                this.ResumeLayout(false);
                this.PerformLayout();
 

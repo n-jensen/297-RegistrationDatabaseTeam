@@ -140,6 +140,9 @@
     <EmbeddedResource Include="MajorForm.resx">
       <DependentUpon>MajorForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SectionForm.resx">
+      <DependentUpon>SectionForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StudentForm.resx">
       <DependentUpon>StudentForm.cs</DependentUpon>
     </EmbeddedResource>
