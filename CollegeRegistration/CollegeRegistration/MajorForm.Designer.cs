@@ -32,7 +32,6 @@
                this.MajorCollegeListBox = new System.Windows.Forms.ListBox();
                this.MajorNameLabel = new System.Windows.Forms.Label();
                this.MajorNameTextBox = new System.Windows.Forms.TextBox();
-               this.MajorCollegeTextBox = new System.Windows.Forms.TextBox();
                this.MajorAddButton = new System.Windows.Forms.Button();
                this.DeleteMajorButton = new System.Windows.Forms.Button();
                this.ChooseCollegeLabel = new System.Windows.Forms.Label();
@@ -72,13 +71,6 @@
                this.MajorNameTextBox.Size = new System.Drawing.Size(100, 20);
                this.MajorNameTextBox.TabIndex = 3;
                // 
-               // MajorCollegeTextBox
-               // 
-               this.MajorCollegeTextBox.Location = new System.Drawing.Point(468, 55);
-               this.MajorCollegeTextBox.Name = "MajorCollegeTextBox";
-               this.MajorCollegeTextBox.Size = new System.Drawing.Size(100, 20);
-               this.MajorCollegeTextBox.TabIndex = 4;
-               // 
                // MajorAddButton
                // 
                this.MajorAddButton.Location = new System.Drawing.Point(88, 101);
@@ -116,7 +108,6 @@
                this.Controls.Add(this.ChooseCollegeLabel);
                this.Controls.Add(this.DeleteMajorButton);
                this.Controls.Add(this.MajorAddButton);
-               this.Controls.Add(this.MajorCollegeTextBox);
                this.Controls.Add(this.MajorNameTextBox);
                this.Controls.Add(this.MajorNameLabel);
                this.Controls.Add(this.MajorCollegeListBox);
@@ -134,7 +125,6 @@
           private System.Windows.Forms.ListBox MajorCollegeListBox;
           private System.Windows.Forms.Label MajorNameLabel;
           private System.Windows.Forms.TextBox MajorNameTextBox;
-          private System.Windows.Forms.TextBox MajorCollegeTextBox;
           private System.Windows.Forms.Button MajorAddButton;
           private System.Windows.Forms.Button DeleteMajorButton;
           private System.Windows.Forms.Label ChooseCollegeLabel;

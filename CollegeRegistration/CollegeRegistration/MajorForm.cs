@@ -27,7 +27,7 @@ namespace CollegeRegistration
           //Add major (name and college)
           private void MajorAddButton_Click(object sender, EventArgs e)
           {
-               if (MajorCollegeTextBox.Text != null)
+               if (MajorCollegeListBox.SelectedItem != null)
                {
                     Major newMajor = new Major
                     {
@@ -37,16 +37,14 @@ namespace CollegeRegistration
                     RegistrationEntities.Majors.Add(newMajor);
                     RegistrationEntities.SaveChanges();
                }
-               //updateMajorList();
+               updateMajorList();
           }
-
-
 
           
           //Delete Major
           private void DeleteMajorButton_Click(object sender, EventArgs e)
           {
-               var selectedMajor = MajorNameListBox.SelectedItem as Major;
+               var selectedMajor = MajorNameListBox.SelectedItem as Major; 
                if (selectedMajor != null)
                {
                     if (selectedMajor.Students.Count > 0)
@@ -61,17 +59,6 @@ namespace CollegeRegistration
                }
           }
 
-          private void updateMajorList()
-          {
-               foreach (var major in RegistrationEntities.Majors)
-               {
-                    MajorNameListBox.Text += $"{major.Name} {major.College}";
-               }
-          }
-
-
-
-          
           private void MajorNameListBox_SelectedIndexChanged(object sender, EventArgs e)
           {
 
@@ -83,11 +70,20 @@ namespace CollegeRegistration
 
           private void SetUpCollegeNames()
           {
-               MajorCollegeListBox.Text = "CECS";
-               MajorCollegeListBox.Text += "CASL";
-               MajorCollegeListBox.Text += "COB";
-               MajorCollegeListBox.Text += "CEHHS";
+               MajorCollegeListBox.Items.Add("CECS");
+               MajorCollegeListBox.Items.Add("CASL");
+               MajorCollegeListBox.Items.Add("COB");
+               MajorCollegeListBox.Items.Add("CEHHS");
           }
-          
+
+
+          //update major
+          private void updateMajorList()
+          {
+               foreach (var major in RegistrationEntities.Majors)
+               {
+                    MajorNameListBox.Text += $"{major.Name} {major.College}";
+               }
+          }
      }
 }

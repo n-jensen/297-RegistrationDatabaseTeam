@@ -20,4 +20,9 @@ namespace CollegeRegistration
      {
           public string FacultyInfo => $"{Name} {PhoneNumber}";
      }
+
+     public partial class Enrollment
+     {
+          public string EnrollmentInfo => $"{StudentID} {SectionID} {Grade}";
+     }
 }
